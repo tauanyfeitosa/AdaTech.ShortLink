@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaTech.ShortLink.WebAPI", "AdaTech.ShortLink.WebAPI\AdaTech.ShortLink.WebAPI.csproj", "{27BBD6F6-C96F-4787-B364-B36E79E73BA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdaTech.ShortLink.Presentation", "AdaTech.ShortLink.Presentation", "{CBC3C4A2-F5EA-4D75-A839-BAEE8EFEC9E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdaTech.ShortLink.Domain", "AdaTech.ShortLink.Domain", "{E6BA0A0C-768D-4236-A668-5ECEFD2281A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaTech.ShortLink.Entities", "AdaTech.ShortLink.Entities\AdaTech.ShortLink.Entities.csproj", "{4F6C3A65-6906-4DCB-B92E-82C93D442CB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdaTech.ShortLink.Infra", "AdaTech.ShortLink.Infra", "{820D895E-A6D5-444F-833B-2DEB911C5620}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdaTech.ShortLink.Application", "AdaTech.ShortLink.Application", "{3A423B56-319A-4580-8CEE-6CBFA1DA8951}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaTech.ShortLink.Service", "AdaTech.ShortLink.Service\AdaTech.ShortLink.Service.csproj", "{388A20A2-D29B-401D-B435-3706E44B7314}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaTech.ShortLink.DataLibrary", "AdaTech.ShortLink.DataLibrary\AdaTech.ShortLink.DataLibrary.csproj", "{73CF5948-7D57-4143-8A6B-CF29214D2AEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4A53FDD-5218-4A33-937D-CD0B4243AA98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A0305616-4340-4C47-9155-FD08667C133D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaTech.ShortLink.Application", "AdaTech.ShortLink.Test\AdaTech.ShortLink.Application.csproj", "{E2F8C240-CA67-47EE-A584-A9B71E2A627D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdaTech.ShortLink.UnitTests", "AdaTech.ShortLink.UnitTests", "{CFE9EDD9-46E6-48D6-A785-0EA6D1C8AEE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27BBD6F6-C96F-4787-B364-B36E79E73BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BBD6F6-C96F-4787-B364-B36E79E73BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BBD6F6-C96F-4787-B364-B36E79E73BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BBD6F6-C96F-4787-B364-B36E79E73BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6C3A65-6906-4DCB-B92E-82C93D442CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6C3A65-6906-4DCB-B92E-82C93D442CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6C3A65-6906-4DCB-B92E-82C93D442CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6C3A65-6906-4DCB-B92E-82C93D442CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388A20A2-D29B-401D-B435-3706E44B7314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388A20A2-D29B-401D-B435-3706E44B7314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388A20A2-D29B-401D-B435-3706E44B7314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388A20A2-D29B-401D-B435-3706E44B7314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CF5948-7D57-4143-8A6B-CF29214D2AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CF5948-7D57-4143-8A6B-CF29214D2AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CF5948-7D57-4143-8A6B-CF29214D2AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CF5948-7D57-4143-8A6B-CF29214D2AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F8C240-CA67-47EE-A584-A9B71E2A627D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F8C240-CA67-47EE-A584-A9B71E2A627D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F8C240-CA67-47EE-A584-A9B71E2A627D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F8C240-CA67-47EE-A584-A9B71E2A627D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27BBD6F6-C96F-4787-B364-B36E79E73BA9} = {CBC3C4A2-F5EA-4D75-A839-BAEE8EFEC9E1}
+		{CBC3C4A2-F5EA-4D75-A839-BAEE8EFEC9E1} = {D4A53FDD-5218-4A33-937D-CD0B4243AA98}
+		{E6BA0A0C-768D-4236-A668-5ECEFD2281A2} = {D4A53FDD-5218-4A33-937D-CD0B4243AA98}
+		{4F6C3A65-6906-4DCB-B92E-82C93D442CB2} = {E6BA0A0C-768D-4236-A668-5ECEFD2281A2}
+		{820D895E-A6D5-444F-833B-2DEB911C5620} = {D4A53FDD-5218-4A33-937D-CD0B4243AA98}
+		{3A423B56-319A-4580-8CEE-6CBFA1DA8951} = {D4A53FDD-5218-4A33-937D-CD0B4243AA98}
+		{388A20A2-D29B-401D-B435-3706E44B7314} = {3A423B56-319A-4580-8CEE-6CBFA1DA8951}
+		{73CF5948-7D57-4143-8A6B-CF29214D2AEB} = {820D895E-A6D5-444F-833B-2DEB911C5620}
+		{E2F8C240-CA67-47EE-A584-A9B71E2A627D} = {CFE9EDD9-46E6-48D6-A785-0EA6D1C8AEE9}
+		{CFE9EDD9-46E6-48D6-A785-0EA6D1C8AEE9} = {A0305616-4340-4C47-9155-FD08667C133D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {914D2790-B363-4219-BD34-0B8342694D3E}
+	EndGlobalSection
+EndGlobal
